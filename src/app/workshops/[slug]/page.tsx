@@ -5,7 +5,11 @@ import { Button } from "@/components/ui/Button";
 import { CTASection } from "@/components/sections/CTASection";
 import { ListSection } from "@/components/sections/ListSection";
 import { SectionLabel } from "@/components/ui/SectionLabel";
-import { getResources, getWorkshopTrack, getWorkshopTracks } from "@/lib/content";
+import {
+  getResources,
+  getWorkshopTrack,
+  getWorkshopTracks,
+} from "@/lib/content";
 import { placeholderImage } from "@/lib/utils";
 
 type WorkshopTrackPageProps = {
@@ -37,8 +41,12 @@ export default async function WorkshopTrackPage({
 }: WorkshopTrackPageProps) {
   const { slug } = await params;
   const track = getWorkshopTrack(slug);
-  const trackResources = getResources().filter((resource) => resource.trackSlug === slug);
-  const freeResourcesCount = trackResources.filter((resource) => resource.access === "free").length;
+  const trackResources = getResources().filter(
+    (resource) => resource.trackSlug === slug,
+  );
+  const freeResourcesCount = trackResources.filter(
+    (resource) => resource.access === "free",
+  ).length;
   const paidResourcesCount = trackResources.length - freeResourcesCount;
 
   if (!track) {
@@ -118,7 +126,11 @@ export default async function WorkshopTrackPage({
               Free: {freeResourcesCount} | Paid (Paywall): {paidResourcesCount}
             </p>
           </div>
-          <Button href="/resources" variant="secondary" className="w-full sm:w-auto">
+          <Button
+            href="/resources"
+            variant="secondary"
+            className="w-full sm:w-auto"
+          >
             View All Track Resources
           </Button>
         </div>
@@ -147,8 +159,12 @@ export default async function WorkshopTrackPage({
                   </span>
                 </div>
 
-                <h3 className="font-heading text-xl font-semibold text-navy">{resource.title}</h3>
-                <p className="mt-1 text-sm font-semibold text-gold">{resource.provider}</p>
+                <h3 className="font-heading text-xl font-semibold text-navy">
+                  {resource.title}
+                </h3>
+                <p className="mt-1 text-sm font-semibold text-gold">
+                  {resource.provider}
+                </p>
                 <p className="mt-3 flex-1 text-sm leading-relaxed text-navy/80">
                   {resource.description}
                 </p>
