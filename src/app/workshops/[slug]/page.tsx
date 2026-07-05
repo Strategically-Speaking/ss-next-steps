@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/Button";
 import { CTASection } from "@/components/sections/CTASection";
 import { ListSection } from "@/components/sections/ListSection";
 import { SectionLabel } from "@/components/ui/SectionLabel";
-import { getWorkshopTrack, getWorkshopTracks } from "@/lib/content";
+import { getResources, getWorkshopTrack, getWorkshopTracks } from "@/lib/content";
 import { placeholderImage } from "@/lib/utils";
 
 type WorkshopTrackPageProps = {
@@ -37,6 +37,9 @@ export default async function WorkshopTrackPage({
 }: WorkshopTrackPageProps) {
   const { slug } = await params;
   const track = getWorkshopTrack(slug);
+  const trackResources = getResources().filter((resource) => resource.trackSlug === slug);
+  const freeResourcesCount = trackResources.filter((resource) => resource.access === "free").length;
+  const paidResourcesCount = trackResources.length - freeResourcesCount;
 
   if (!track) {
     notFound();
@@ -103,6 +106,68 @@ export default async function WorkshopTrackPage({
         items={track.outcomes}
         label="Outcomes"
       />
+
+      <section className="mx-auto max-w-6xl px-6 py-16 sm:py-20">
+        <div className="mb-8 flex flex-wrap items-end justify-between gap-3">
+          <div>
+            <SectionLabel>Track Resources</SectionLabel>
+            <h2 className="font-heading text-3xl font-semibold text-navy sm:text-4xl">
+              Resources for {track.name}
+            </h2>
+            <p className="mt-3 text-navy/70">
+              Free: {freeResourcesCount} | Paid (Paywall): {paidResourcesCount}
+            </p>
+          </div>
+          <Button href="/resources" variant="secondary" className="w-full sm:w-auto">
+            View All Track Resources
+          </Button>
+        </div>
+
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {trackResources.map((resource) => {
+            const isPaid = resource.access === "paid";
+
+            return (
+              <article
+                key={resource.slug}
+                className="flex h-full flex-col rounded-2xl bg-white p-6 shadow-sm ring-1 ring-navy/10"
+              >
+                <div className="mb-3 flex items-center justify-between gap-2">
+                  <span className="rounded-full bg-navy/5 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-navy">
+                    {track.name}
+                  </span>
+                  <span
+                    className={
+                      isPaid
+                        ? "rounded-full bg-navy px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white"
+                        : "rounded-full bg-emerald-100 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-emerald-800"
+                    }
+                  >
+                    {isPaid ? "Paid (Paywall)" : "Free"}
+                  </span>
+                </div>
+
+                <h3 className="font-heading text-xl font-semibold text-navy">{resource.title}</h3>
+                <p className="mt-1 text-sm font-semibold text-gold">{resource.provider}</p>
+                <p className="mt-3 flex-1 text-sm leading-relaxed text-navy/80">
+                  {resource.description}
+                </p>
+                <p className="mt-4 text-xs font-semibold uppercase tracking-wide text-navy/60">
+                  Popular for: {resource.popularFor}
+                </p>
+
+                <Button
+                  href={resource.href}
+                  variant={isPaid ? "primary" : "secondary"}
+                  className="mt-5 w-full"
+                >
+                  {resource.ctaLabel}
+                </Button>
+              </article>
+            );
+          })}
+        </div>
+      </section>
 
       <CTASection
         heading={`Ready to explore the ${track.name}?`}
