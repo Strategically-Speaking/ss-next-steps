@@ -1,0 +1,502 @@
+{
+  "siteSettings": {
+    "name": "Next Steps",
+    "tagline": "Helping families navigate what comes after high school",
+    "mission": "Helping families navigate next steps.",
+    "logo": {
+      "text": "Next Steps",
+      "hasImage": false,
+      "imageAlt": ""
+    },
+    "contact": {
+      "email": "bessie@nextsteps.com",
+      "phone": "(205) 778-2389",
+      "address": "123 Main St, Calera, AL 35040",
+      "hours": "Mon–Sat, 8am–5pm"
+    },
+    "social": {
+      "linkedin": "",
+      "instagram": "https://instagram.com/nextsteps",
+      "facebook": "https://facebook.com/nextsteps",
+      "twitter": ""
+    },
+    "nav": [
+      { "label": "Home", "href": "/" },
+      { "label": "About", "href": "/about" },
+      { "label": "Services", "href": "/services" },
+      { "label": "Workshops", "href": "/workshops" },
+      { "label": "Contact", "href": "/contact" }
+    ],
+    "footer": {
+      "tagline": "Helping families navigate next steps.",
+      "copyright": "© 2026 Next Steps. All rights reserved."
+    },
+    "brand": {
+      "primaryColor": "#16294A",
+      "secondaryColor": "#E0A93E",
+      "backgroundColor": "#F7F6F3",
+      "headingFont": "Fraunces",
+      "bodyFont": "Inter"
+    }
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "headline": "Life after high school shouldn't feel like guesswork",
+        "subheadline": "Next Steps helps parents and teens explore college, military, work, trade school, apprenticeships, and entrepreneurship together — with a plan, not just pressure.",
+        "ctaPrimary": { "label": "Book a Consultation", "href": "/contact" },
+        "ctaSecondary": { "label": "See Our Workshops", "href": "/workshops" },
+        "imageAlt": "Parent and teenager reviewing options together at a table"
+      },
+      "sections": [
+        {
+          "id": "problem",
+          "type": "text",
+          "heading": "Every path forward deserves a real conversation",
+          "body": "A lot of teens don't have someone they trust to talk through what's next — and a lot of parents don't know where to start. Next Steps gives families a structured, judgment-free way to explore every option: college, military, workforce, trade school, apprenticeship, or starting a business."
+        },
+        {
+          "id": "services-preview",
+          "type": "cards",
+          "heading": "How We Help",
+          "subheading": "One-on-one guidance and group workshops built around real options, not one path",
+          "items": "ref:services"
+        },
+        {
+          "id": "tracks-preview",
+          "type": "cards",
+          "heading": "Four Tracks. One Goal: Clarity.",
+          "subheading": "Our workshops are organized around the four most common next-step paths",
+          "items": "ref:workshopTracks"
+        },
+        {
+          "id": "social-proof",
+          "type": "testimonial",
+          "heading": "What families say",
+          "featured": "ref:testimonials[0]"
+        },
+        {
+          "id": "stats",
+          "type": "stats-strip",
+          "items": "ref:stats"
+        },
+        {
+          "id": "cta-section",
+          "type": "cta",
+          "heading": "Ready to help your teen find their next step?",
+          "body": "Book a consultation and let's map out the options together.",
+          "cta": { "label": "Book a Consultation", "href": "/contact" }
+        }
+      ],
+      "seo": {
+        "title": "Next Steps — College, Military, Trade & Career Planning for Teens | Calera, AL",
+        "description": "Next Steps helps parents and teens in Calera, AL explore every path after high school — college, military, workforce, trade school, and entrepreneurship — through 1-on-1 consultations and group workshops."
+      }
+    },
+    "about": {
+      "hero": {
+        "headline": "Built by a mom who wished this existed",
+        "subheadline": "Next Steps started with one family's search for better information — now it's here for yours."
+      },
+      "sections": [
+        {
+          "id": "story",
+          "type": "text",
+          "heading": "Our story",
+          "body": "It all started in 2022, when founder Bessie Miller was preparing her own daughter for the transition out of high school. As a mother and public service worker, Bessie found herself wishing there was a service like this — one place to help families make informed, confident decisions about what comes next, without pushing any single path. Next Steps launched in 2026 to be exactly that resource for other families in Calera and beyond."
+        },
+        {
+          "id": "values",
+          "type": "list",
+          "heading": "What we stand for",
+          "items": [
+            {
+              "title": "Transparency",
+              "description": "We lay out every option honestly, including the tradeoffs, so families can make informed decisions."
+            },
+            {
+              "title": "Customer oriented",
+              "description": "Every family's situation is different. We build the plan around your teen, not a template."
+            },
+            {
+              "title": "Data driven",
+              "description": "Our guidance is grounded in real information about each path, not assumptions or trends."
+            }
+          ]
+        },
+        {
+          "id": "team",
+          "type": "team-grid",
+          "heading": "Meet the founder",
+          "items": "ref:team"
+        }
+      ],
+      "seo": {
+        "title": "About Next Steps | Founder Bessie Miller",
+        "description": "Next Steps was founded in 2022 by Bessie Miller, a mother and public service worker, to help families navigate every option after high school with transparency and real data."
+      }
+    },
+    "services": {
+      "hero": {
+        "headline": "Guidance built around your teen's path",
+        "subheadline": "Whether it's one focused conversation or a full workshop series, we meet families where they are."
+      },
+      "sections": [
+        {
+          "id": "services-list",
+          "type": "cards",
+          "heading": "Our Services",
+          "items": "ref:services"
+        },
+        {
+          "id": "pricing",
+          "type": "pricing-table",
+          "heading": "Pricing",
+          "subheading": "Placeholder pricing — to be finalized before launch",
+          "tiers": [
+            {
+              "name": "1-on-1 Family Consultation",
+              "price": "$XX (placeholder)",
+              "period": "per session",
+              "description": "A focused meeting to map out your teen's options and next steps.",
+              "features": [
+                "60-minute session with parent(s) and student",
+                "Personalized options overview",
+                "Follow-up summary and action plan"
+              ],
+              "cta": { "label": "Book a Consultation", "href": "/contact" }
+            },
+            {
+              "name": "Group Workshop — Single Track",
+              "price": "$XX (placeholder)",
+              "period": "per student",
+              "description": "Join one of our four track-specific group workshops.",
+              "features": [
+                "Half-day or full-day session",
+                "Track-specific curriculum (College, Workforce, Trade, or Military)",
+                "Take-home planning materials"
+              ],
+              "cta": { "label": "See Workshops", "href": "/workshops" }
+            },
+            {
+              "name": "Workshop Bundle",
+              "price": "$XX (placeholder)",
+              "period": "per student",
+              "description": "Attend multiple tracks to compare paths side by side.",
+              "features": [
+                "Access to 2+ workshop tracks",
+                "Comparison worksheet across paths",
+                "Optional follow-up 1-on-1 session at a discount"
+              ],
+              "cta": { "label": "Ask About Bundles", "href": "/contact" }
+            }
+          ]
+        }
+      ],
+      "seo": {
+        "title": "Services & Pricing | Next Steps",
+        "description": "Explore Next Steps' 1-on-1 family consultations and group workshops, with pricing for individual sessions and workshop bundles."
+      }
+    },
+    "workshops": {
+      "hero": {
+        "headline": "Four tracks. Every path taken seriously.",
+        "subheadline": "Our workshops give students and parents a clear, honest look at what each path really involves."
+      },
+      "sections": [
+        {
+          "id": "tracks",
+          "type": "cards",
+          "heading": "Workshop Tracks",
+          "items": "ref:workshopTracks"
+        },
+        {
+          "id": "how-it-works",
+          "type": "list",
+          "heading": "How workshops work",
+          "items": [
+            {
+              "title": "Pick a track",
+              "description": "Choose from College, Workforce, Trade, or Military — or attend more than one."
+            },
+            {
+              "title": "Attend as a family",
+              "description": "Workshops are designed for parents and teens to attend together."
+            },
+            {
+              "title": "Leave with a plan",
+              "description": "Every workshop ends with concrete next steps and take-home materials."
+            }
+          ]
+        },
+        {
+          "id": "cta-section",
+          "type": "cta",
+          "heading": "Find the right track for your teen",
+          "body": "Book a workshop seat or ask us which track fits best.",
+          "cta": { "label": "Book Now", "href": "/contact" }
+        }
+      ],
+      "seo": {
+        "title": "Workshops — College, Workforce, Trade & Military Tracks | Next Steps",
+        "description": "Join a Next Steps workshop track for College, Workforce, Trade, or Military paths — designed for parents and teens to attend together."
+      }
+    },
+    "contact": {
+      "hero": {
+        "headline": "Let's map out the next step",
+        "subheadline": "Book a consultation or send us a message — we respond within 1 business day."
+      },
+      "sections": [
+        {
+          "id": "contact-options",
+          "type": "contact-info",
+          "options": [
+            {
+              "type": "booking",
+              "label": "Book a consultation",
+              "description": "Pick a time that works for your family",
+              "action": "Book on Calendly",
+              "url": "https://calendly.com/nextsteps/consultation-PLACEHOLDER"
+            },
+            {
+              "type": "email",
+              "label": "Send a message",
+              "description": "We respond within 1 business day"
+            },
+            {
+              "type": "phone",
+              "label": "Call us",
+              "description": "(205) 778-2389"
+            }
+          ]
+        }
+      ],
+      "seo": {
+        "title": "Contact Next Steps | Book a Consultation",
+        "description": "Reach out to Next Steps to book a 1-on-1 consultation or ask about workshop tracks in Calera, AL."
+      }
+    }
+  },
+  "services": [
+    {
+      "slug": "one-on-one-consultation",
+      "name": "1-on-1 Family Consultation",
+      "tagline": "One conversation, a clear plan.",
+      "shortDescription": "Meet with our team to map out career paths and options for your child.",
+      "fullDescription": "A focused, private session for your family to explore every realistic option after high school — college, military, workforce, trade school, apprenticeship, or entrepreneurship — and leave with a concrete plan tailored to your teen.",
+      "approach": "We start with where your teen is today: interests, strengths, constraints, and concerns. From there we walk through each path honestly, including cost, timeline, and tradeoffs, before narrowing down to a realistic short list.",
+      "whoItsFor": "Parents and teens (15+) who want personalized guidance rather than generic advice.",
+      "outcomes": [
+        "A clear, written next-steps plan",
+        "An honest look at options the family may not have considered",
+        "Reduced stress and better communication between parent and teen"
+      ],
+      "cta": { "label": "Book a Consultation", "href": "/contact" },
+      "imageAlt": "Advisor meeting with a parent and teenager"
+    },
+    {
+      "slug": "group-workshops",
+      "name": "Group Workshops",
+      "tagline": "Learn alongside other families.",
+      "shortDescription": "Track-specific group workshops covering College, Workforce, Trade, and Military paths.",
+      "fullDescription": "Our workshops bring families together to explore a specific path in depth, guided by real information and structured activities. Choose one track or attend multiple to compare paths side by side.",
+      "approach": "Each workshop is organized around one of four tracks and combines short presentations, discussion, and planning exercises so families leave with next steps, not just information.",
+      "whoItsFor": "Parents and teens who want a deeper dive into a specific path, or who want to compare paths in a group setting.",
+      "outcomes": [
+        "In-depth understanding of one or more paths",
+        "Take-home planning materials",
+        "Connection with other families navigating the same decisions"
+      ],
+      "cta": { "label": "See Workshops", "href": "/workshops" },
+      "imageAlt": "Group of parents and teens at a workshop table"
+    }
+  ],
+  "workshopTracks": [
+    {
+      "slug": "college-track",
+      "name": "College Track",
+      "tagline": "Turn applications and affordability into a real decision.",
+      "description": "Covers applications, financial aid, choosing a major, and campus fit.",
+      "fullDescription": "This track helps families make sense of the college path from both the student and parent side. We break down application timelines, compare school-fit factors, and talk honestly about cost, debt, scholarships, and what a degree path actually requires once classes begin.",
+      "audience": "Best for students considering two-year or four-year colleges and families who want a clearer process for narrowing options without relying on guesswork.",
+      "topics": [
+        {
+          "title": "Admissions game plan",
+          "description": "Map out application timing, testing expectations, recommendation needs, and decision deadlines."
+        },
+        {
+          "title": "Cost and financial aid",
+          "description": "Compare tuition, scholarships, FAFSA basics, and the long-term impact of borrowing."
+        },
+        {
+          "title": "School fit",
+          "description": "Evaluate majors, campus culture, support services, and distance from home with more clarity."
+        }
+      ],
+      "outcomes": [
+        {
+          "title": "Short list of options",
+          "description": "Families leave with a clearer college list based on fit, budget, and goals."
+        },
+        {
+          "title": "Application next steps",
+          "description": "Students know what to do next and when to do it after the workshop ends."
+        },
+        {
+          "title": "Better financial questions",
+          "description": "Parents leave knowing which cost questions to ask before saying yes to a school."
+        }
+      ],
+      "price": "$XX (placeholder)",
+      "cta": { "label": "Ask About College Track", "href": "/contact" },
+      "imageAlt": "Student reviewing college brochures"
+    },
+    {
+      "slug": "workforce-track",
+      "name": "Workforce Track",
+      "tagline": "Build a launch plan for work right after high school.",
+      "description": "Covers entry-level job search, resumes, interview skills, and building a career without a degree.",
+      "fullDescription": "This track is for students who want to move directly into the workforce and families who want that decision treated seriously. We cover job-search basics, early career planning, employer expectations, and how to turn an entry-level role into a pathway instead of a dead end.",
+      "audience": "Best for students exploring immediate employment, gap-year work experience, or non-degree career paths that still need structure and momentum.",
+      "topics": [
+        {
+          "title": "Resume and job search basics",
+          "description": "Learn how to present school, volunteer, and part-time experience in a way employers understand."
+        },
+        {
+          "title": "Interview readiness",
+          "description": "Practice how to answer common questions, communicate reliability, and follow up professionally."
+        },
+        {
+          "title": "Career growth planning",
+          "description": "Look at certifications, advancement steps, and how to choose first jobs with future options in mind."
+        }
+      ],
+      "outcomes": [
+        {
+          "title": "First-job checklist",
+          "description": "Students leave with a concrete set of steps for applying, interviewing, and following through."
+        },
+        {
+          "title": "Professional communication tools",
+          "description": "Families gain scripts and expectations for interviews, email follow-up, and workplace professionalism."
+        },
+        {
+          "title": "Longer-term pathway thinking",
+          "description": "Students can connect a first role to advancement, training, and earning potential over time."
+        }
+      ],
+      "price": "$XX (placeholder)",
+      "cta": { "label": "Ask About Workforce Track", "href": "/contact" },
+      "imageAlt": "Young adult in a workplace setting"
+    },
+    {
+      "slug": "trade-track",
+      "name": "Trade Track",
+      "tagline": "Compare skilled-trade options with less confusion and more facts.",
+      "description": "Covers trade school options, certifications, apprenticeship pathways, and skilled-trade careers.",
+      "fullDescription": "This track gives families a realistic overview of skilled-trade routes, from trade schools to apprenticeship programs. We compare training models, entry requirements, wages, physical demands, and what different trades can offer over time so students can make an informed choice.",
+      "audience": "Best for students interested in hands-on careers, paid training paths, or certification-based work in high-demand industries.",
+      "topics": [
+        {
+          "title": "Trade pathways",
+          "description": "Understand the differences between trade school, certification programs, unions, and apprenticeships."
+        },
+        {
+          "title": "Career and wage outlook",
+          "description": "Review what various trades pay, how advancement works, and what day-to-day work can look like."
+        },
+        {
+          "title": "Readiness and fit",
+          "description": "Talk through transportation, equipment, physical expectations, and commitment level before choosing a path."
+        }
+      ],
+      "outcomes": [
+        {
+          "title": "Path comparison worksheet",
+          "description": "Families can compare several trade routes side by side instead of relying on hearsay."
+        },
+        {
+          "title": "Questions for programs and employers",
+          "description": "Students leave knowing what to ask when evaluating schools, training programs, and apprenticeships."
+        },
+        {
+          "title": "Actionable next moves",
+          "description": "Each attendee leaves with a short list of programs, certifications, or contacts to pursue next."
+        }
+      ],
+      "price": "$XX (placeholder)",
+      "cta": { "label": "Ask About Trade Track", "href": "/contact" },
+      "imageAlt": "Student in a trade or vocational training setting"
+    },
+    {
+      "slug": "military-track",
+      "name": "Military Track",
+      "tagline": "Understand service options, structure, and tradeoffs before committing.",
+      "description": "Covers branches, enlistment process, ASVAB prep, and life planning around military service.",
+      "fullDescription": "This track helps students and parents evaluate military service with more clarity and fewer assumptions. We walk through branch differences, enlistment basics, ASVAB preparation, benefits, obligations, and the practical questions families should ask before a student signs anything.",
+      "audience": "Best for students considering enlistment, ROTC-adjacent planning, or military service as part of a broader post-high-school strategy.",
+      "topics": [
+        {
+          "title": "Branch overview",
+          "description": "Compare mission, lifestyle, culture, and common entry expectations across branches."
+        },
+        {
+          "title": "Enlistment process",
+          "description": "Understand the recruiting process, required documents, timing, and major decision points."
+        },
+        {
+          "title": "Benefits and commitments",
+          "description": "Talk through education benefits, career training, relocation, and the realities of service commitments."
+        }
+      ],
+      "outcomes": [
+        {
+          "title": "Clearer decision framework",
+          "description": "Families leave with the right questions to evaluate service as a serious option, not a vague idea."
+        },
+        {
+          "title": "Preparation steps",
+          "description": "Students understand what to do next for ASVAB prep, recruiter conversations, and documentation."
+        },
+        {
+          "title": "Balanced expectations",
+          "description": "Parents and teens gain a more honest view of the benefits, structure, and sacrifices involved."
+        }
+      ],
+      "price": "$XX (placeholder)",
+      "cta": { "label": "Ask About Military Track", "href": "/contact" },
+      "imageAlt": "Family talking with a military recruiter or advisor"
+    }
+  ],
+  "team": [
+    {
+      "name": "Bessie Miller",
+      "title": "Founder",
+      "bio": "Bessie Miller is a mother and public service worker who founded Next Steps in 2022 after searching for — and not finding — this kind of guidance for her own daughter.",
+      "credentials": "Founder, Next Steps",
+      "imageAlt": "Bessie Miller, founder of Next Steps"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "PLACEHOLDER — \"Next Steps gave my daughter and me a way to actually talk about her future instead of arguing about it.\"",
+      "name": "PLACEHOLDER — Parent Name",
+      "title": "Parent",
+      "org": ""
+    },
+    {
+      "quote": "PLACEHOLDER — \"I didn't know trade school was even an option until the workshop. Now I have a real plan.\"",
+      "name": "PLACEHOLDER — Student Name",
+      "title": "Student",
+      "org": ""
+    }
+  ],
+  "stats": [
+    { "value": "4", "label": "Career tracks covered" },
+    { "value": "2026", "label": "Founded" },
+    { "value": "100+", "label": "Families served" },
+    { "value": "97%", "label": "Workshop satisfaction" }
+  ]
+}
