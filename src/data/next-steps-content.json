@@ -25,6 +25,7 @@
       { "label": "About", "href": "/about" },
       { "label": "Services", "href": "/services" },
       { "label": "Workshops", "href": "/workshops" },
+      { "label": "Resources", "href": "/resources" },
       { "label": "Contact", "href": "/contact" }
     ],
     "footer": {
@@ -240,6 +241,31 @@
       "seo": {
         "title": "Workshops — College, Workforce, Trade & Military Tracks | Next Steps",
         "description": "Join a Next Steps workshop track for College, Workforce, Trade, or Military paths — designed for parents and teens to attend together."
+      }
+    },
+    "resources": {
+      "hero": {
+        "headline": "Track-based resources for every next-step path",
+        "subheadline": "Explore curated resources across College, Workforce, Trade, and Military tracks. We offer a small set of free starting points and deeper paid resources behind a member paywall."
+      },
+      "sections": [
+        {
+          "id": "resources-intro",
+          "type": "text",
+          "heading": "Start free, then go deeper",
+          "body": "Each track includes one free resource to help families get started fast. Most resources are premium and include deeper templates, guided checklists, and planning tools unlocked through paid access."
+        },
+        {
+          "id": "resources-cta",
+          "type": "cta",
+          "heading": "Need access to paid resources?",
+          "body": "Choose your track and contact us for membership options and current pricing.",
+          "cta": { "label": "Unlock Paid Resources", "href": "/contact" }
+        }
+      ],
+      "seo": {
+        "title": "Resources by Track | Next Steps",
+        "description": "Browse popular resources for College, Workforce, Trade, and Military tracks, including free starter tools and paid premium resources."
       }
     },
     "contact": {
@@ -468,6 +494,184 @@
       "price": "$XX (placeholder)",
       "cta": { "label": "Ask About Military Track", "href": "/contact" },
       "imageAlt": "Family talking with a military recruiter or advisor"
+    }
+  ],
+  "resources": [
+    {
+      "slug": "bigfuture-college-search",
+      "trackSlug": "college-track",
+      "title": "BigFuture College Search",
+      "provider": "College Board",
+      "description": "Browse colleges by major, location, and cost to build an initial school list.",
+      "access": "free",
+      "href": "https://bigfuture.collegeboard.org/college-search",
+      "ctaLabel": "Open Free Resource",
+      "popularFor": "Students starting college research"
+    },
+    {
+      "slug": "college-application-planner",
+      "trackSlug": "college-track",
+      "title": "College Application Planner",
+      "provider": "Next Steps Premium",
+      "description": "A deadline-driven planner with recommendation, essay, and submission checkpoints.",
+      "access": "paid",
+      "href": "/contact",
+      "ctaLabel": "Unlock Premium Resource",
+      "popularFor": "Families managing multiple application deadlines"
+    },
+    {
+      "slug": "fafsa-scholarship-playbook",
+      "trackSlug": "college-track",
+      "title": "FAFSA and Scholarship Playbook",
+      "provider": "Next Steps Premium",
+      "description": "Step-by-step aid timeline with scholarship tracking and parent documentation checklist.",
+      "access": "paid",
+      "href": "/contact",
+      "ctaLabel": "Unlock Premium Resource",
+      "popularFor": "Families planning around affordability"
+    },
+    {
+      "slug": "major-fit-decision-matrix",
+      "trackSlug": "college-track",
+      "title": "Major and Campus Fit Matrix",
+      "provider": "Next Steps Premium",
+      "description": "A scoring worksheet to compare majors, support services, campus life, and outcomes.",
+      "access": "paid",
+      "href": "/contact",
+      "ctaLabel": "Unlock Premium Resource",
+      "popularFor": "Students deciding between final options"
+    },
+    {
+      "slug": "onet-career-explorer",
+      "trackSlug": "workforce-track",
+      "title": "O*NET Career Explorer",
+      "provider": "U.S. Department of Labor",
+      "description": "Explore common career paths, tasks, and skill expectations for entry-level roles.",
+      "access": "free",
+      "href": "https://www.onetonline.org/",
+      "ctaLabel": "Open Free Resource",
+      "popularFor": "Students exploring first-job options"
+    },
+    {
+      "slug": "resume-builder-bundle",
+      "trackSlug": "workforce-track",
+      "title": "Resume Builder Bundle",
+      "provider": "Next Steps Premium",
+      "description": "Editable resume templates, role-specific examples, and parent review checklist.",
+      "access": "paid",
+      "href": "/contact",
+      "ctaLabel": "Unlock Premium Resource",
+      "popularFor": "Students applying for entry-level jobs"
+    },
+    {
+      "slug": "interview-prep-kit",
+      "trackSlug": "workforce-track",
+      "title": "Interview Prep Kit",
+      "provider": "Next Steps Premium",
+      "description": "Mock interview scripts, answer frameworks, and post-interview follow-up templates.",
+      "access": "paid",
+      "href": "/contact",
+      "ctaLabel": "Unlock Premium Resource",
+      "popularFor": "Teens preparing for first interviews"
+    },
+    {
+      "slug": "first-year-work-plan",
+      "trackSlug": "workforce-track",
+      "title": "First-Year Work Growth Plan",
+      "provider": "Next Steps Premium",
+      "description": "A 12-month roadmap to track goals, feedback, certifications, and advancement steps.",
+      "access": "paid",
+      "href": "/contact",
+      "ctaLabel": "Unlock Premium Resource",
+      "popularFor": "Families focused on career growth after hiring"
+    },
+    {
+      "slug": "apprenticeshipgov-finder",
+      "trackSlug": "trade-track",
+      "title": "Apprenticeship Finder",
+      "provider": "Apprenticeship.gov",
+      "description": "Find registered apprenticeship opportunities by occupation and region.",
+      "access": "free",
+      "href": "https://www.apprenticeship.gov/career-seekers",
+      "ctaLabel": "Open Free Resource",
+      "popularFor": "Students exploring paid training routes"
+    },
+    {
+      "slug": "trade-school-comparison-sheet",
+      "trackSlug": "trade-track",
+      "title": "Trade Program Comparison Sheet",
+      "provider": "Next Steps Premium",
+      "description": "Compare cost, completion time, equipment needs, and employer partnerships side by side.",
+      "access": "paid",
+      "href": "/contact",
+      "ctaLabel": "Unlock Premium Resource",
+      "popularFor": "Families choosing between schools and apprenticeships"
+    },
+    {
+      "slug": "certification-path-map",
+      "trackSlug": "trade-track",
+      "title": "Certification Path Map",
+      "provider": "Next Steps Premium",
+      "description": "A progression map of high-demand certifications and experience milestones by trade.",
+      "access": "paid",
+      "href": "/contact",
+      "ctaLabel": "Unlock Premium Resource",
+      "popularFor": "Students planning long-term trade advancement"
+    },
+    {
+      "slug": "trade-tools-budget-guide",
+      "trackSlug": "trade-track",
+      "title": "Tools and Budget Starter Guide",
+      "provider": "Next Steps Premium",
+      "description": "Budgeting worksheet for starter tools, transportation, and early on-the-job expenses.",
+      "access": "paid",
+      "href": "/contact",
+      "ctaLabel": "Unlock Premium Resource",
+      "popularFor": "Families preparing for first-year trade costs"
+    },
+    {
+      "slug": "military-official-site-guide",
+      "trackSlug": "military-track",
+      "title": "Military Branch Information Hub",
+      "provider": "USA.gov",
+      "description": "Official links to branch information and enlistment starting points.",
+      "access": "free",
+      "href": "https://www.usa.gov/military",
+      "ctaLabel": "Open Free Resource",
+      "popularFor": "Families comparing branches at a high level"
+    },
+    {
+      "slug": "asvab-study-plan",
+      "trackSlug": "military-track",
+      "title": "ASVAB Study Plan",
+      "provider": "Next Steps Premium",
+      "description": "Structured weekly study calendar with score goals by section and accountability check-ins.",
+      "access": "paid",
+      "href": "/contact",
+      "ctaLabel": "Unlock Premium Resource",
+      "popularFor": "Students preparing for qualification testing"
+    },
+    {
+      "slug": "enlistment-readiness-checklist",
+      "trackSlug": "military-track",
+      "title": "Enlistment Readiness Checklist",
+      "provider": "Next Steps Premium",
+      "description": "Document checklist and timeline for recruiter meetings, medical processing, and commitments.",
+      "access": "paid",
+      "href": "/contact",
+      "ctaLabel": "Unlock Premium Resource",
+      "popularFor": "Families preparing for recruiter conversations"
+    },
+    {
+      "slug": "military-benefits-planner",
+      "trackSlug": "military-track",
+      "title": "Military Benefits Planner",
+      "provider": "Next Steps Premium",
+      "description": "A decision worksheet to compare education benefits, service commitments, and lifestyle tradeoffs.",
+      "access": "paid",
+      "href": "/contact",
+      "ctaLabel": "Unlock Premium Resource",
+      "popularFor": "Families making final enlistment decisions"
     }
   ],
   "team": [

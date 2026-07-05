@@ -132,6 +132,20 @@ export interface WorkshopTrack {
   imageAlt: string;
 }
 
+export type ResourceAccess = "free" | "paid";
+
+export interface Resource {
+  slug: string;
+  trackSlug: WorkshopTrack["slug"];
+  title: string;
+  provider: string;
+  description: string;
+  access: ResourceAccess;
+  href: string;
+  ctaLabel: string;
+  popularFor: string;
+}
+
 export interface TeamMember {
   name: string;
   title: string;
@@ -159,10 +173,12 @@ export interface SiteContent {
     about: Page;
     services: Page;
     workshops: Page;
+    resources: Page;
     contact: Page;
   };
   services: Service[];
   workshopTracks: WorkshopTrack[];
+  resources: Resource[];
   team: TeamMember[];
   testimonials: Testimonial[];
   stats: Stat[];

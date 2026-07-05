@@ -5,6 +5,7 @@ import type {
   Page,
   Service,
   WorkshopTrack,
+  Resource,
   TeamMember,
   Testimonial,
   Stat,
@@ -39,6 +40,10 @@ export function getWorkshopTracks(): WorkshopTrack[] {
 
 export function getWorkshopTrack(slug: string): WorkshopTrack | undefined {
   return content.workshopTracks.find((t) => t.slug === slug);
+}
+
+export function getResources(): Resource[] {
+  return content.resources;
 }
 
 export function getTeam(): TeamMember[] {
