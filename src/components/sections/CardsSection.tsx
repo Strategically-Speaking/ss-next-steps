@@ -25,7 +25,7 @@ export function CardsSection({ heading, subheading, label, columns = 3, children
       ? "sm:grid-cols-2 lg:grid-cols-4"
       : columns === 2
         ? "sm:grid-cols-2"
-        : "sm:grid-cols-2 lg:grid-cols-3";
+        : "sm:grid-cols-2 lg:grid-cols-2";
 
   return (
     <section className="mx-auto max-w-6xl px-6 py-16 sm:py-24">
