@@ -633,10 +633,10 @@
       "slug": "military-official-site-guide",
       "trackSlug": "military-track",
       "title": "Military Branch Information Hub",
-      "provider": "USA.gov",
+      "provider": "Military.com",
       "description": "Official links to branch information and enlistment starting points.",
       "access": "free",
-      "href": "https://www.usa.gov/military",
+      "href": "https://www.military.com/",
       "ctaLabel": "Open Free Resource",
       "popularFor": "Families comparing branches at a high level"
     },
